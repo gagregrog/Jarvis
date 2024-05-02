@@ -22,9 +22,9 @@
 // RJ-45   Signal   Description
 //  pin     ID
 //   1      HS3     Handset control line 3
-//   2      DTX     Serial control messages from controller to handset
+//   2      DTX     Serial control messages from controller to handset // read signals on this line
 //   3      GND
-//   4      HTX     Serial control messages from handset to controller
+//   4      HTX     Serial control messages from handset to controller // send signals on this line
 //   5      VCC 5v
 //   6      HS2     Handset control line 2
 //   7      HS1     Handset control line 1

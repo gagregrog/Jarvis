@@ -39,7 +39,7 @@ bool ProtocolFully::put(unsigned char ch) {
     break;
   default: // ARGS
     if (state <= LENGTH || state > ARGS)
-      return error(ch); // assert(ARGS);
+      return error(ch); // assert(ARGS);`
     checksum += (argv[argc - (CHKSUM - state)] = ch);
     break;
   case CHKSUM:
